@@ -7,7 +7,7 @@ require_once "headerp.php";
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Nombre del proyecto:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" required id="email" placeholder="Nombre del proyecto" name="nproyect">
+      <input type="text" class="form-control" required id="email" placeholder="Nombre del proyecto" name="nproyect">
     </div>
   </div>
   <div class="form-group">

@@ -11,11 +11,6 @@ class User
   public function __construct($user)
   {
     $this->db = $db = DatabaseLayer::getConnection("MySqlProvider");
-<<<<<<< HEAD
-    print_r($db->execute("SELECT * FROM usuarios WHERE  username = ?",array("aurbinas")));
-    //echo($db->executeScalar("SELECT count(*) FROM users WHERE active=?",array(true)));
-
-
     $datos = $db->execute("SELECT username, password FROM usuarios WHERE  username = ?",array($user));
 
     if (count($datos)>0)
@@ -42,8 +37,6 @@ class User
     else {
       echo "Clave invalida";
     }
->>>>>>> 786674ecf2aac1715bd98afe995b0c8a37d741b0
-  }
 }
 
 
