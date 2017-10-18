@@ -38,6 +38,6 @@ class User
       echo "Clave invalida";
     }
 }
-
+}
 
 ?>
