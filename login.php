@@ -1,6 +1,4 @@
 <?php
-require_once "header.php";
-
 
 if (isset($_POST) and isset($_POST["username"]))
 {  error_reporting(E_ALL);
@@ -11,7 +9,7 @@ ini_set('display_errors', '1');
   $user = new User($_POST["username"]);
   $user->getAcceso($_POST["pwd"]);
 }
-
+require_once "header.php";
 ?>
 <style>
   form {

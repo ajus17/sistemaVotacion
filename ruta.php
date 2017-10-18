@@ -1,0 +1,3 @@
+<?php
+$RUTA = "sistemaVotacion/"
+?>
