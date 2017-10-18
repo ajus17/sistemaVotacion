@@ -34,13 +34,13 @@ echo "<script type='text/javascript'>
 <div>
   
 <label><h6>Nombre de la categoría:</h6></label>
-<input type="text" name="ncategoria" class="form-control">
+<input type="text" name="ncategoria" class="form-control" required>
 
 </div>
 <p></p>
 <div>
   
-  <input type="submit" name="enviar" value="Guardar" class="btn btn-outline-primary">
+  <input type="submit" name="enviar" value="Guardar categoría" class="btn btn-outline-primary">
 
 </div>
 

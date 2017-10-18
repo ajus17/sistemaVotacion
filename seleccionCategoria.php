@@ -22,9 +22,9 @@ require_once "models/DatabaseLayer.php";
   
 <label><h5>Categorías de Concursos</h5></label>
 
-<select name="categorias" class="custom-select">
+<select name="categorias" required class="custom-select">
 
-<option id="-1">Seleccione la categoría del concurso</option>
+<option value="">Seleccione la categoría del concurso</option>
 	
 <?php
 
@@ -55,8 +55,8 @@ if (count($registros)!=0) {
 <p></p>
 <div>
   
-  <input type="submit" name="enviar" value="Cargar proyectos" class="btn btn-outline-primary">
-
+  <button type="submit" name="enviar"  class="btn btn-outline-primary">Cargar proyectos</button>
+ 
 </div>
 
 
