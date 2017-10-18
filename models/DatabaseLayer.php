@@ -17,7 +17,7 @@ class DatabaseLayer
           throw new Exception("El proveedor especificado no ha sido implentado o añadido.");
       }
       $this->provider = new $provider;
-      $this->provider->connect('localhost','root', '', 'votacionesdb');
+      $this->provider->connect('localhost','root', 'sistemas', 'votacionesdb');
       if(!$this->provider->isConnected()){
           /*Controlar error de conexion*/
         }
