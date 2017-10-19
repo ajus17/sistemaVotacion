@@ -34,7 +34,7 @@
      <ul>
         <li class='has-sub'><a href='#'>Categorias</a>
            <ul>
-              <li><a href='#'>Agregar</a></li>
+              <li><a href='addCategoria.php'>Agregar</a></li>
               <li><a href='#'>Buscar</a></li>
            </ul>
         </li>

@@ -9,7 +9,7 @@ $db = DatabaseLayer::getConnection("MySqlProvider");
 
 $registros = $db->execute("select * from proyectos where categorias_codCategoria= ?",array($category));
 
-
+30 
 
 
 ?>

@@ -3,6 +3,8 @@ require_once "header.php";
 
 require_once "models/DatabaseLayer.php";
 
+require_once "headerp.php";
+
 if (!empty($_POST))
 {
 
@@ -29,18 +31,25 @@ echo "<script type='text/javascript'>
 <p></p>
   
  <fieldset class="container">
-   <legend class="card rounded-0"><h3>Agregar categorias de concursos</h3></legend>
+   <h2>Agregar Categoria</h2>
+ <br />
 
-<div>
+<div class="form-group">
   
-<label><h6>Nombre de la categoría:</h6></label>
-<input type="text" name="ncategoria" class="form-control" required>
+	<label class="control-label col-sm-2">Nombre de la categoría</label>
+
+	<div class="col-sm-10">
+	<input type="text" name="ncategoria" class="form-control" required>
+	</div>
 
 </div>
 <p></p>
-<div>
+ <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
   
   <input type="submit" name="enviar" value="Guardar categoría" class="btn btn-outline-primary">
+
+  </div>
 
 </div>
 
